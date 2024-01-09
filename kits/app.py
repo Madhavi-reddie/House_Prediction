@@ -39,7 +39,7 @@ def second():
 @app.route('/third')
 def third():
     return 'I am in Third Page' 
-if _name='__main_':
+if __name__='__main__':
     #app.run(use_reloader=True,debug=True)
     app.run()
 
